@@ -1,0 +1,49 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/* styling to heading */
+.Heading{
+    margin: 10px;
+    text-align: center;
+}
+.heading1{
+    color: #3258be;
+    font-size: 40px;
+
+}
+/* styling the container */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* styling the table container */
+.table-container {
+    width: 100%; /* Adjust the width of the table container as needed */
+    max-width: 600px; /* Set a maximum width for responsiveness */
+   margin-top: -150px;
+}
+
+.button-container {
+    position: absolute;
+    top: 120px;
+ 
+   
+  }
+  
+@media (min-width: 768px) {
+    /* Adjust the positioning for screens with a width of 768 pixels or larger */
+    .button-container {
+      bottom: 10%;
+      right: 32%;
+    }
+  }
+  
+@media (min-width: 480px) {
+    /* Adjust the positioning for screens with a width of 768 pixels or larger */
+    .button-container {
+     margin-left: 400px;
+      
+    }
+  }
